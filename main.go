@@ -128,7 +128,7 @@ func writeConfigsToFile(path string, configs []string) {
 func AddCommitPush() error {
 	commands := [][]string{
 		{"git", "add", "--all"},
-		{"git", "commit", "-m", "update"},
+		{"git", "commit", "-m", "'update'"},
 		{"git", "push"},
 	}
 
