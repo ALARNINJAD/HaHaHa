@@ -119,7 +119,7 @@ func main() {
 	AddCommitPush()
 
 	exec.Command("git", "add", "--all")
-	exec.Command("git", "commit", "-m", "update")
+	exec.Command("git", "commit", "-m", "'update'")
 	exec.Command("git", "push")
 	fmt.Println("done ✅")
 }
